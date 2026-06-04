@@ -11,13 +11,9 @@ portada: true
 
 Se cumplen 30 años del Joker de Jack Nicholson, un Joker con aires de Bitelchús, tan peligroso como cachondo, que bailaba con Kim Basinger a la luz de la luna. Casi 20 años después, disfrutamos de un Joker convertido en figura de culto. La prematura y controvertida muerte de Heath Ledger contribuyó a agrandar la leyenda de su magistral interpretación. Hace unos años, Jared Leto se unió a la lista con una digna interpretación, pero muy lejos de las expectativas que se habían creado en torno a ella. A su favor podemos decir que Escuadrón Suicida tenía mucho menos calidad que las pelis de Batman, y no tenía a Burton o Nolan detrás de la claqueta.
 
-Heath Ledger, Joaquin Phoenix y Jack Nicholson.
-
 Estos Jokers eran muy homogéneos. Divertidos, sarcásticos, bastante dinámicos y muy poderosos. Incluso cabreados o matando a alguien continuaban sonriendo, manteniendo todo bajo control. El Joker de Joaquin Phoenix, que hoy ha visto la luz para el gran público, es la antítesis de los anteriormente mencionados. Incluso descojonándose de risa, permanece cabreado y con el ceño fruncido. Se ríe por impulsos debido a un trastorno que no puede controlar, de manera espasmódica e involuntaria. Le han obligado a no olvidarse de sonreír pero él preferiría no hacerlo. En un momento de la película tacha el «forget» de un cartel que reza «don´t forget smile», declaración de intenciones de nuestro personaje que, durante casi toda la película, es más Arthur que Joker.
 
 Arthur es un paria, un inadaptado maltratado por sus circunstancias. A su trastorno se une la ausencia de la figura paterna y una madre adoptiva con las facultades mentales a dos metros bajo tierra, obsesionada con Thomas Wayne, al que el director nos quiere mostrar como un Donald Trump de Gotham.
-
-La Gotham más Scorsesiana
 
 Aparte del personaje, la película es una delicia desde los primeros planos en movimiento, donde vemos la crudeza de los sumideros de la clase media-baja de Gotham. Ese metro, esos ascensores y pasillos sin alma son un espejo de los suburbios neoyorquinos de las pelis de Scorsese, fuente de la que mana la inspiración de Phillips, de manera inequívoca. Unas calles que dan miedo y seducen a la vez, como el olor a pizza cuatro quesos en las cloacas de Las tortugas ninja.
 

@@ -458,6 +458,15 @@ export default function Home() {
                 }}>
                   {post3.title}
                 </h3>
+                {post3.image && (
+                  <div style={{ aspectRatio: '16/9', overflow: 'hidden', marginBottom: '16px' }}>
+                    <img
+                      src={post3.image}
+                      alt={post3.title}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                  </div>
+                )}
                 <span style={{
                   fontFamily: 'var(--font-body)',
                   fontSize: '10px',

@@ -5,6 +5,7 @@ date: "2019-02-27"
 excerpt: ""
 image: "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?q=80&w=1800&auto=format&fit=crop"
 featured: false
+portada: true
 ---
 
 Un buen día de otoño, mientras un sol de carretera se recostaba en el horizonte crepuscular de la árida autovía que une Puertollano con Poblete, me disponía a visitar a mi abuela Eulalia. Stones o Creedence suele acompañarme en el trayecto, pero era hora punta en Radio 3 y empezó a sonar algo que decía «cegados por el sol, el cielo es de vinilo» con un rollito road movie que me hizo sentir Sean Penn girando al infierno, en busca de las piernas de Jennifer López, mientras ella cambia las cortinas. Shazameé la canción, era Mezcalito de Ángel Stanich.

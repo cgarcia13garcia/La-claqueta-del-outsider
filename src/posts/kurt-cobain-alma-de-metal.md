@@ -5,7 +5,7 @@ date: "2019-04-17"
 excerpt: ""
 image: "/kurt-cobain.jpg"
 featured: false
-portada: true
+portada: false
 ---
 
 Hasta los primeros 90's había vivido en la burbuja materna del cole a casa y de casa al cole. Entonces, nos mudamos lejos del centro escolar y empecé a pisar la calle sin compañía de adultos. Empezaba a detectar monopatines, graffitis y zapatillas converse como señas de la nueva generación urbana. Mi hermano, que cursaba BUP en un cole interno en Madrid, traía cintas de cassette de grupos extraños que escuchábamos mientras él me incordiaba y yo jugaba al Super Mario, sin darle mucha importancia a lo que sonaba. Cuando se iba, yo volvía a poner los Hombres G, pero algo se iba quedando.

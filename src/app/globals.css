@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@keyframes quoteFade {
+  0%   { opacity: 0; }
+  12%  { opacity: 1; }
+  82%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.quote-fade {
+  animation: quoteFade 8s ease-in-out forwards;
+}
+
 :root {
   --background: #f3efe7;
   --foreground: #111111;
@@ -69,16 +80,4 @@ a {
   margin: 2.5rem 0;
   font-style: italic;
   color: #444;
-  font-size: 1.25rem;
-  line-height: 1.7;
-}
-
-.prose-claqueta a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.prose-claqueta a:hover {
-  opacity: 0.6;
-}
+  font-

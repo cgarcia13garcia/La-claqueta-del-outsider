@@ -5,50 +5,49 @@ import { useState, useEffect } from 'react';
 type Quote = { text: string; author: string };
 
 export default function QuoteRotator({ quotes }: { quotes: Quote[] }) {
-  const [index, setIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
+  const [current, setCurrent] = useState(0);
+  const [fading, setFading] = useState(false);
 
-  // Cada 7 segundos, arranca el fade-out
   useEffect(() => {
-    const timer = setInterval(() => setVisible(false), 7000);
-    return () => clearInterval(timer);
-  }, []);
+    const interval = setInterval(() => {
+      setFading(true);
+      setTimeout(() => {
+        setCurrent(prev => (prev + 1) % quotes.length);
+        setFading(false);
+      }, 500);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [quotes.length]);
 
-  // Cuando visible pasa a false, espera 1s (fade-out), cambia la cita, y vuelve a mostrar
-  useEffect(() => {
-    if (!visible) {
-      const t = setTimeout(() => {
-        setIndex(i => (i + 1) % quotes.length);
-        setVisible(true);
-      }, 1000);
-      return () => clearTimeout(t);
-    }
-  }, [visible, quotes.length]);
+  const quote = quotes[current];
 
   return (
-    <div
-      style={{
-        flex: 1,
-        opacity: visible ? 1 : 0,
-        transition: 'opacity 1s ease-in-out',
-      }}
-    >
-      <p style={{
-        fontFamily: 'var(--font-title)',
-        fontStyle: 'italic',
-        fontSize: 'clamp(1.1rem, 2vw, 1.55rem)',
-        lineHeight: 1.4,
-        letterSpacing: '-0.01em',
-        color: '#111',
-        marginBottom: '16px',
+    <div style={{ flex: 1, minHeight: '90px' }}>
+      <div style={{
+        opacity: fading ? 0 : 1,
+        transition: 'opacity 0.5s ease-in-out',
       }}>
-        {quotes[index].text}
-      </p>
-      <p style={{
-        fontFamily: 'var(--font-body)',
-        fontSize: '10px',
-        letterSpacing: '0.3em',
-        textTransform: 'uppercase' as const,
-        color: 'rgba(17,17,17,0.4)',
-      }}>
-        — {quo
+        <p style={{
+          fontFamily: 'var(--font-title)',
+          fontStyle: 'italic',
+          fontSize: 'clamp(1.1rem, 2vw, 1.55rem)',
+          lineHeight: 1.4,
+          letterSpacing: '-0.01em',
+          color: '#111',
+          marginBottom: '16px',
+        }}>
+          {quote.text}
+        </p>
+        <p style={{
+          fontFamily: 'var(--font-body)',
+          fontSize: '10px',
+          letterSpacing: '0.3em',
+          textTransform: 'uppercase' as const,
+          color: 'rgba(17,17,17,0.4)',
+        }}>
+          — {quote.author}
+        </p>
+      </div>
+    </div>
+  );
+}

@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "La Claqueta del Outsider",
   description: "Cuadernos de cine, música y cultura contemporánea",
+  icons: {
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+  },
 };
 
 export default function RootLayout({

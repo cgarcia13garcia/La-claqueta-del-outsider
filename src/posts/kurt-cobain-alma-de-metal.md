@@ -3,7 +3,7 @@ title: "Kurt Cobain y su alma de metal"
 category: "Música"
 date: "2019-04-17"
 excerpt: ""
-image: "/kurt-cobain.jpg"
+image: "/kurt.jpg"
 featured: false
 portada: true
 ---

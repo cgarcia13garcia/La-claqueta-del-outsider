@@ -5,7 +5,7 @@ date: "2019-02-27"
 excerpt: ""
 image: "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?q=80&w=1800&auto=format&fit=crop"
 featured: false
-portada: true
+portada: false
 ---
 
 Un buen día de otoño, mientras un sol de carretera se recostaba en el horizonte crepuscular de la árida autovía que une Puertollano con Poblete, me disponía a visitar a mi abuela Eulalia. Stones o Creedence suele acompañarme en el trayecto, pero era hora punta en Radio 3 y empezó a sonar algo que decía «cegados por el sol, el cielo es de vinilo» con un rollito road movie que me hizo sentir Sean Penn girando al infierno, en busca de las piernas de Jennifer López, mientras ella cambia las cortinas. Shazameé la canción, era Mezcalito de Ángel Stanich.
@@ -24,4 +24,4 @@ Das un paso más, vas a verle en directo y compruebas que bebe Nestea y Solán d
 
 Un soplo de aire fresco que nos da un respiro entre tanta mediocridad musical y social, con ese don para escribir que sólo tienen los elegidos. Con apenas dos discos, y algún racimo suelto de joyas aisladas, detectas el sello de autor de los tocados por la varita. Eso que los hace tan personales y diferentes a los demás. Eso que tienen artistas como Sabina, Calamaro o Quique González y no se enseña en academias de programas de televisión ni en despachos de productoras random con ganas de sonar en cadenas de radio con números, lo mismo da cienes que cuarentas.
 
-Seguiremos sin saber nada de su vida personal, ni de sus pretensiones con esa —para mí loable— actitud, ni falta que nos hace. Nos sobra con sus discos y sus canciones, con sus letras ocurrentes y punzantes, con su sonido inclasificable —a ver cómo explicas el sonido Stanich— y sus coñas en el escenario y, sobre todo, nos sobra con su talento innato y su carisma.
+Seguiremos sin saber nada de su vida personal, ni de sus pretensiones con esa —para mí loable— actitud, ni falta que nos hace. Nos sobra con sus discos y sus canciones, con sus letras ocurrentes y punzantes, con su sonido inclasificable —a ver cómo explicas el sonido Stanich— y sus coñas en el escenario y, sobre todo, nos sobra con su talento innato

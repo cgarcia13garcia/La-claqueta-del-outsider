@@ -22,8 +22,7 @@ export default function QuoteRotator({ quotes }: { quotes: Quote[] }) {
 
   return (
     <div style={{ flex: 1, position: 'relative', height: '160px' }}>
-      {/* eslint-disable-next-line react/no-danger */}
-      <style dangerouslySetInnerHTML={{ __html: css }} />
+      <style>{css}</style>
       {quotes.map((quote, i) => (
         <div key={i} className="q-slot">
           <p style={{

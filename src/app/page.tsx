@@ -1,5 +1,6 @@
 import { getAllPosts, PostMeta } from '@/lib/posts';
 import Link from 'next/link';
+import QuoteRotator from './QuoteRotator';
 
 const QUOTES = [
   {
@@ -9,6 +10,10 @@ const QUOTES = [
   {
     text: "Los placeres violentos tienen finales violentos.",
     author: "William Shakespeare",
+  },
+  {
+    text: "Éramos perfectos el día que perdimos nuestras almas.",
+    author: "Marilyn Manson",
   },
 ];
 
@@ -58,9 +63,6 @@ export default function Home() {
       ].slice(0, 3);
 
   const [post1, post2, post3] = gridPosts;
-  const quoteIndex = new Date().getDate() % QUOTES.length;
-  const activeQuote = QUOTES[quoteIndex];
-
   return (
     <main style={{ background: 'var(--background)', color: 'var(--foreground)', minHeight: '100vh' }}>
 
@@ -500,28 +502,7 @@ export default function Home() {
             flexShrink: 0,
             userSelect: 'none',
           }}>&ldquo;</span>
-          <div style={{ flex: 1 }}>
-            <p style={{
-              fontFamily: 'var(--font-title)',
-              fontStyle: 'italic',
-              fontSize: 'clamp(1.1rem, 2vw, 1.55rem)',
-              lineHeight: 1.4,
-              letterSpacing: '-0.01em',
-              color: '#111',
-              marginBottom: '16px',
-            }}>
-              {activeQuote.text}
-            </p>
-            <p style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: '10px',
-              letterSpacing: '0.3em',
-              textTransform: 'uppercase',
-              color: 'rgba(17,17,17,0.4)',
-            }}>
-              — {activeQuote.author}
-            </p>
-          </div>
+          <QuoteRotator quotes={QUOTES} />
           <Link href="/archivo" style={{
             fontFamily: 'var(--font-body)',
             fontSize: '10px',
@@ -563,3 +544,4 @@ export default function Home() {
     </main>
   );
 }
+                                                                                                                                                                                                                                          

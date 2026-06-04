@@ -3,7 +3,7 @@ title: "Kurt Cobain y su alma de metal"
 category: "Música"
 date: "2019-04-17"
 excerpt: ""
-image: "https://wallpaper-house.com/data/out/10/wallpaper2you_391082.jpg"
+image: "/kurt-cobain.jpg"
 featured: false
 portada: true
 ---

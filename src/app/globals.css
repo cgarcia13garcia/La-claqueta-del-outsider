@@ -20,9 +20,10 @@
 .quote-item:nth-child(3) { animation-delay: 16s; opacity: 0; }
 
 :root {
-  --background: #f3efe7;
+  --background: #d8d3ca;
   --foreground: #111111;
   --accent-musica: #8B2E2E;
+  --background-footer: #cfc9c0;
 }
 
 html {

@@ -127,7 +127,7 @@ export default async function ArticuloPage({ params }: Props) {
       </article>
 
       {/* PIE */}
-      <footer style={{ borderTop: '1px solid rgba(17,17,17,0.12)', background: '#ece8df', padding: '72px 32px', textAlign: 'center' }}>
+      <footer style={{ borderTop: '1px solid rgba(17,17,17,0.12)', background: 'var(--background-footer)', padding: '72px 32px', textAlign: 'center' }}>
         <p style={{
           fontFamily: 'var(--font-body)',
           fontSize: '10px',

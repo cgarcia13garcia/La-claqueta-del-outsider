@@ -531,10 +531,7 @@ export default function Home() {
           textTransform: 'uppercase',
           color: 'rgba(17,17,17,0.33)',
         }} className="footer-grid">
-          <span>© 2025 La Claqueta del Outsider</span>
-          <span className="footer-lema" style={{ textTransform: 'none', fontStyle: 'italic', letterSpacing: '0.05em', fontSize: '11px' }}>
-            Escribir es mirar lo que otros no quieren ver.
-          </span>
+          <span>© 2019 La Claqueta del Outsider</span>
           <span className="footer-right">
             <a href="#" style={{ color: 'inherit', textDecoration: 'none' }}>Suscríbete al cuaderno →</a>
           </span>

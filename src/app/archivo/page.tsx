@@ -116,15 +116,6 @@ export default function ArchivoPage() {
                   }}>
                     {post.title}
                   </h2>
-                  <p style={{
-                    fontFamily: 'var(--font-body)',
-                    fontSize: '0.93rem',
-                    lineHeight: 1.65,
-                    color: 'rgba(17,17,17,0.55)',
-                    maxWidth: '600px',
-                  }}>
-                    {post.excerpt}
-                  </p>
                 </div>
               </div>
               <div style={{ textAlign: 'right', flexShrink: 0 }}>

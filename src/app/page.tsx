@@ -15,6 +15,10 @@ const QUOTES = [
     text: "Éramos perfectos el día que perdimos nuestras almas.",
     author: "Marilyn Manson",
   },
+  {
+    text: "A veces, por muy alto que pongas la música, solo puedes oírte a ti mismo.",
+    author: "Kurt Cobain",
+  },
 ];
 
 function CatLabel({ category, light = false }: { category: string; light?: boolean }) {
